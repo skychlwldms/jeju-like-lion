@@ -1,0 +1,14 @@
+<h1>post index</h1>
+
+<a herf="/posts/new">new</a>
+<div>  
+<% @posts.each do |post|%>  
+
+<div>  
+    <a herf="posts/<%= post.id%>"> 
+        <%= post.content %>
+    </a>
+</div>
+
+<% end %>
+ </div>

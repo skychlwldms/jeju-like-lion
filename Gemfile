@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'rails_db'#추가하고 나서 번들을 꼭 쳐야함. 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
